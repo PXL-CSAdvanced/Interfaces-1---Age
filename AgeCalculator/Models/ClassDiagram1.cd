@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AgeCalculator.Models.Person" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="3" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBAAAAAAAAAEEAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AgeCalculator.Models.Dog" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAKCAAA=</HashCode>
+      <FileName>Models\Dog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AgeCalculator.Models.Tree" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAgAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AgeCalculator.Models.Species">
+    <Position X="8.75" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Species.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgeCalculator.Models.Breed">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAEAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\Breed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AgeCalculator.Models.IAge">
+    <Position X="5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IAge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

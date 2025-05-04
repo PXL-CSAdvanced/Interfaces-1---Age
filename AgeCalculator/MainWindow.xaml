@@ -1,0 +1,48 @@
+﻿<Window x:Class="AgeCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AgeCalculator"
+        mc:Ignorable="d"
+        Title="Leeftijd" Height="300" Width="550">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem x:Name="currentYearStatus"/>
+        </StatusBar>
+    
+        <WrapPanel>
+            <GroupBox Header="Persoon"  Width="150" Margin="10">
+                <StackPanel>
+                    <Label Content="Voornaam:"/>
+                    <TextBox x:Name="personFirstNameTextBox"/>
+                    <Label Content="Achternaam:"/>
+                    <TextBox x:Name="personLastNameTextBox"/>
+                    <Label Content="Geboortedatum:"/>
+                    <DatePicker x:Name="personBirthDatePicker"/>
+                    <Button Content="Bereken leeftijd" Margin="0,10" Click="OnCalculatePersonAge"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Boom" Width="150" Margin="10">
+                <StackPanel>
+                    <Label Content="Soort:"/>
+                    <ComboBox x:Name="treeSpeciesComboBox"/>
+                    <Label Content="Omtrek:"/>
+                    <TextBox x:Name="treeCircumferenceTextBox"/>
+                    <Button Content="Bereken leeftijd" Margin="0,10" Click="OnCalculateTreeAge"/>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Hond"  Width="150" Margin="10">
+                <StackPanel>
+                    <Label Content="Naam:"/>
+                    <TextBox x:Name="dogNameTextBox"/>
+                    <Label Content="Ras:"/>
+                    <ComboBox x:Name="dogBreedComboBox"/>
+                    <Label Content="Geboortejaar:"/>
+                    <TextBox x:Name="dogBirthYearTextBox"/>
+                    <Button Content="Bereken leeftijd" Margin="0,10" Click="OnCalculateDogAge"/>
+                </StackPanel>
+            </GroupBox>
+        </WrapPanel>
+    </DockPanel>
+</Window>
