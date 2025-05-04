@@ -17,6 +17,7 @@
 
 > [!TIP]
 > De formule om de leeftijd van een boom te bepalen is *diameter x groeifactor*
+> De formule om de diameter te bepalen op basis van de omtrek is *omtrek / Pi* ;-)
 
 > [!TIP]
 > De formule om de leeftijd van een hond te bepalen is *leeftijd x equivalent*
