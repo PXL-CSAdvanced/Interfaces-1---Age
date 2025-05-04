@@ -12,7 +12,7 @@
     }
     ```
 
-- Voorzie de nodige eventprocedures om de 3 knoppen van functionaliteit te voorzien.
+- Voorzie de nodige eventprocedures om de 3 knoppen van functionaliteit te voorzien. **Elke eventprocedure maakt een object aan van het desbetreffende type en roept daarna de methode *ShowAge* aan.**
 - Bekijk onderstaande screenshots aandachtig om zowel het MainWindow als de classes van de juiste functionaliteit te voorzien.
 
 > [!TIP]
