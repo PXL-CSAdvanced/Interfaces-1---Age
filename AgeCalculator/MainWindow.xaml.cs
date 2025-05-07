@@ -17,5 +17,20 @@ namespace AgeCalculator
             treeSpeciesComboBox.ItemsSource = Species.GetAll();
             dogBreedComboBox.ItemsSource = Breed.GetAll();
         }
+
+        private void OnCalculatePersonAge(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnCalculateDogAge(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnCalculateTreeAge(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
